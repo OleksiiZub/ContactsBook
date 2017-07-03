@@ -1,0 +1,70 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  color: #333;
+  background: #f7f7f7;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+form h3 {
+  margin-left: 10%;
+  padding: 5px;
+  float: left;
+  clear: both;
+  margin-bottom: 5px;
+}
+
+form {
+  width: 70%;
+  margin-left: 40%;
+  float: left;
+}
+
+form select {
+  border-radius: 5px;
+  border: 2px solid silver;
+  padding: 5px;
+  float: left;
+  clear: both;
+  margin-bottom: 5px;
+}
+
+form input {
+  width: 30%;
+  border-radius: 5px;
+  border: 2px solid silver;
+  padding: 5px;
+  float: left;
+  clear: both;
+  margin-bottom: 5px;
+}
+
+form label {
+  width: 30%;
+  padding: 5px;
+  float: left;
+  clear: both;
+  margin-bottom: 5px;
+}
+form #send {
+  width: 15%;
+  float: left;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 70px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #3e56e1;
+  font-family: sans-serif;
+  color: #ffffff;
+
+}
+form input:focus {border: 2px solid #69f500}
+
+form #send:hover {background-color: #0100e1;}
